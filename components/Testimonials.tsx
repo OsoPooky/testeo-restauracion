@@ -4,7 +4,62 @@ const testimonials = [
   [
     {
       content:
-        Me encantó, tras usarlo me creció 20cm la pija.",
+        "Un lujo, creció mi pija tras usarlo.",
+      link: "https://twitter.com/rauchg/status/1612233034622984192",
+      author: {
+        name: "Guillermo Rauch",
+        role: "CEO at Vercel",
+        image: "/g.jpg",
+      },
+    },
+    {
+      content:
+        "'Ta juerte",
+      link: "https://twitter.com/cramforce/status/1612496954218672128",
+      author: {
+        name: "Malte Ubl",
+        role: "CTO at Vercel",
+        image: "/malte.jpg",
+      },
+    },
+  ],
+  [
+    {
+      content:
+        "Testimonio aleatorio 1. Ahre inventaba testimonios",
+      link: "https://twitter.com/phar_whaz/status/1612498030627852309",
+      author: {
+        name: "Fawaz Adeniji",
+        role: "Software Engineer",
+        image: "/fawaz.jpg",
+      },
+    },
+    {
+      content:
+        "Testimonio aleatorio 1. Ahre inventaba testimonios de nuevo",
+      link: "https://twitter.com/sergvind/status/1612610058369515521",
+      author: {
+        name: "Sergei Vinderskikh",
+        role: "CPO at Treeum",
+        image: "/sergei.jpg",
+      },
+    },
+  ],
+  [
+    {
+      content:
+        "Algo, algo, algo. Ta bueno",
+      link: "https://twitter.com/Himanil_Gole/status/1612510385504157697",
+      author: {
+        name: "Himanil Gole",
+        role: "Designer & Founder at CBREX",
+        image: "/himanil.jpg",
+      },
+    },
+    {
+      content:
+        "Wow",
+      link: "https://twitter.com/rod_ellison/status/1612513333302775809",
       author: {
         name: "Rod Ellison",
         role: "Software Engineer",
@@ -24,10 +79,10 @@ export function Testimonials() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto md:text-center">
           <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-900 sm:text-6xl">
-            Amado por mucho.
+            Amado por algunos.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-slate-700 leading-7">
-            Algunas de las opiniones.
+            Algunos testimonios para nada inventados.
           </p>
         </div>
         <ul
