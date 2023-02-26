@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Explicación de como lao armaron
+            Explicación de como la armaron
           </a>
 
           <Link
