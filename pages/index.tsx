@@ -29,9 +29,8 @@ const Home: NextPage = () => {
           Para restaurar caras en fotos viejas{" "}
           <span className="relative whitespace-nowrap text-[#3290EE]">
             <SquigglyLines />
-            <span className="relative">usando IA</span>
+            <span className="relative">usando IA.</span>
           </span>{" "}
-          for everyone.
         </h1>
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
