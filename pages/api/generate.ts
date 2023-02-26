@@ -15,7 +15,6 @@ const ratelimit = redis
   ? new Ratelimit({
       redis: redis,
       limiter: Ratelimit.fixedWindow(3, "60 s"),
-      analytics: true,
     })
   : undefined;
 
